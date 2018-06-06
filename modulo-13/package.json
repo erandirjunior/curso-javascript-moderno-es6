@@ -1,0 +1,17 @@
+{
+  "name": "modulo-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aula01.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.0.3"
+  }
+}
