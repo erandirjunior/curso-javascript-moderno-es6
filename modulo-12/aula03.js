@@ -1,4 +1,4 @@
-// Introdução ao WeakSet -> semelhante ao set mas só armazena objetos
+// Introdução ao WeakMap
 
 let obj = {
 	name: 'Erandir',
