@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const nodeENV = process.env.NODE_ENV || 'production';
 
 module.exports = {
 	entry: {
@@ -20,5 +21,10 @@ module.exports = {
 				}
 			}
 		]
-	}
+	},
+	plugins: [
+		new webpack.DefinePlugin({
+			'proccess.env': { NODE_ENV: JSON.stringify(nodeENV) } 
+		})
+	]
 };
